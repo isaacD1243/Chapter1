@@ -12,11 +12,19 @@ public class FreeLance {
 		String name;
 		Scanner inputDevice  = new Scanner(System.in);
 		
-		System.out.println("Please enter your name >>");
-		name = inputDevice.nextLine();
+		System.out.println("What is your name? >>");
+		name = inputDevice.next();
+		
+		System.out.println("Please eenter a number >>");
+		firstNum = inputDevice.nextInt(); 
 		
 		System.out.println("Please enter a number >>");
-		firstnum = input.nextint; 
+		secondNum = inputDevice.nextInt();
+		
+		total = firstNum + secondNum;
+		
+		System.out.println("The answer is " + total);
+		System.out.println("your name is " + name);
 	}
 
 }
